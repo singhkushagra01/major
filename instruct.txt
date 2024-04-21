@@ -1,0 +1,29 @@
+Assuming terminal is in current directory:
+
+To use virtual environment,
+
+for mac, 
+use: "source /fedml/bin/activate"
+
+for windows,
+use: "fedml\Scripts\activate"
+
+
+If .npy files do not exist, run preprocess1.py and preprocess2.py.
+They convert images to numpy arrays for use in further algorithm. It saves time and computation by not reading images again.
+Make sure to enter correct path while running the above files.
+
+If they exist, proceed to run client1.py and client2.py.
+They are individual deep learning clients with no federated methodologies integrated.
+
+***
+Far jatin sethi:
+
+cd ./Users/jatinsethi/Desktop/major
+source fedml/bin/activate
+python3 client1.py
+
+cd ./Users/jatinsethi/Desktop/major
+source fedml/bin/activate
+python3 client2.py
+***
